@@ -5,7 +5,7 @@ pipeline {
         
         stage('github-clone') {
             steps {
-                git branch: 'main', credentialsId: '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', url: 'git@github.com:ino214/docker-react-app.git'
+                git branch: 'main', credentialsId: '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', url: 'git@github.com:ino214/docker-react-app.git'
             }
         }
         
